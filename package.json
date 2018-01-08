@@ -1,0 +1,15 @@
+{
+  "name": "crypto-portal",
+  "version": "1.0.0",
+  "description": "investigation",
+  "main": "index.js",
+  "author": "Alexander Akimov",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "color": "^2.0.1",
+    "rutoken": "^1.0.8"
+  }
+}
