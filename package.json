@@ -6,9 +6,21 @@
   "author": "Alexander Akimov",
   "license": "MIT",
   "scripts": {
-    "start": "node ."
+    "start": "gulp"
   },
   "dependencies": {
     "rutoken": "^1.0.8"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0"
   }
 }
