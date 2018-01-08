@@ -9,7 +9,6 @@
     "start": "node ."
   },
   "dependencies": {
-    "color": "^2.0.1",
     "rutoken": "^1.0.8"
   }
 }
