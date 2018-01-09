@@ -9,6 +9,8 @@
     "start": "gulp"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
     "rutoken": "^1.0.8"
   },
   "babel": {
@@ -16,11 +18,32 @@
       "latest"
     ]
   },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "plugins": [
+      "import"
+    ],
+    "rules": {
+      "linebreak-style": 0
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-latest": "^6.24.1",
     "del": "^3.0.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
     "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.0"
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^4.0.1",
+    "webpack-stream": "^4.0.0"
   }
 }
