@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "babel-register": "^6.26.0",
     "rutoken": "^1.0.8"
   },
   "babel": {
